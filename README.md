@@ -5,6 +5,9 @@
 #### 结构化剪枝
 #### 动态剪枝
 ### 知识蒸馏
+**Distilling the Knowledge in a Neural Network**<br>
+*Geoffrey Hinton、 Oriol Vinyals、 Jeff Dean ·*<br>
+arXiv 2015. [[PDF](https://arxiv.org/pdf/1503.02531v1)]
 ### 神经架构设计与搜索（NAS）
 ### 模型量化
 ### 矩阵分解
