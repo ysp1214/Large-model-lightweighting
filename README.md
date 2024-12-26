@@ -4,7 +4,8 @@
 #### 非结构化剪枝
 #### 结构化剪枝
 #### 动态剪枝
-### 知识蒸馏
+#### 知识蒸馏
+
 
 **知识蒸馏的开山之作**
 **Distilling the Knowledge in a Neural Network**<br>
@@ -120,6 +121,34 @@ arXiv 2024   ·  [[PDF]](https://arxiv.org/pdf/2403.13512)]
 **Logit Standardization in Knowledge Distillation**
 * Shangquan Sun, Wenqi Ren, Jingzhi Li, Rui Wang, Xiaochun Cao *<br>
 arXiv 2024   ·  [[PDF]](https://arxiv.org/pdf/2403.01427)]
+
+**通过多级蒸馏、自适应特征对齐、任务相关的损失函数、跨任务蒸馏等方法，成功实现了跨架构的知识蒸馏**
+**One-for-All: Bridge the Gap Between Heterogeneous Architectures in Knowledge Distillation**<br>
+* Zhiwei Hao, Jianyuan Guo, Kai Han, Yehui Tang, Han Hu, Yunhe Wang, Chang Xu *<br>
+arXiv 2023   ·  [[PDF]](https://arxiv.org/pdf/2310.19444)]
+
+**用反向 KLD 替换标准 KD 方法中的正向 Kullback-Leibler 发散 （KLD） 目标，它更适合生成语言模型上的 KD，以防止学生模型高估教师分布的低概率区域**
+**MiniLLM: Knowledge Distillation of Large Language Models**<br>
+* Yuxian Gu, Li Dong, Furu Wei, Minlie Huang *<br>
+arXiv 2023   ·  [[PDF]](https://arxiv.org/pdf/2306.08543)]
+
+**通过结合单词级排名损失，我们确保了与现有蒸馏目标的出色兼容性，同时充分利用了两个预测分布峰中不同类别之间的细粒度信息**
+**Enhancing Knowledge Distillation of Large Language Models through Efficient Multi-Modal Distribution Alignment**<br>
+* Tianyu Peng, Jiajun Zhang *<br>
+arXiv 2024   ·  [[PDF]](https://arxiv.org/pdf/2409.12545)]
+
+**Compact Language Models via Pruning and Knowledge Distillation**<br>
+* Saurav Muralidharan, Sharath Turuvekere Sreenivas, Raviraj Joshi, Marcin Chochowski, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jan Kautz, Pavlo Molchanov *<br>
+arXiv 2024   ·  [[PDF]](https://arxiv.org/pdf/2407.14679)]
+
+**Reducing LLM Hallucination Using Knowledge Distillation: A Case Study with Mistral Large and MMLU Benchmark**<br>
+* Daniel McDonald,Rachael Papadopoulos,Leslie Benningfield *<br>
+TechRxiv 2024   ·  [[PDF]](https://d197for5662m48.cloudfront.net/documents/publicationstatus/209108/preprint_pdf/95a0d08d45ea252fadf746f96e1028f8.pdf)]
+
+**PANDA: Prompt Transfer Meets Knowledge Distillation for Efficient Model Adaptation**<br>
+* Qihuang Zhong, Liang Ding, Juhua Liu, Bo Du, Dacheng Tao *<br>
+arXiv 2024   ·  [[PDF]](https://arxiv.org/pdf/2208.10160)]
+
 ### 神经架构设计与搜索（NAS）
 ### 模型量化
 ### 矩阵分解
