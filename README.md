@@ -2,8 +2,62 @@
 ## 大模型轻量化技术分类 
 ### 模型剪枝
 #### 非结构化剪枝
+
+**首次提出了通过计算神经网络中各个权重的二阶导数（Hessian矩阵）来评估其重要性，从而进行非结构化剪枝**
+**Optimal Brain Damage**<br>
+* Yann LeCun, John Denker, Sara Solla *<br>
+NIPS 1989    [[PDF](https://proceedings.neurips.cc/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf)]
+
+**通过基于梯度信息的Taylor展开来选择剪枝的神经元，并展示了如何在保持精度的同时进行非结构化剪枝，从而提高计算效率**
+**Pruning Convolutional Neural Networks for Resource Efficient Inference**<br>
+* Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, Jan Kautz *<br>
+arXiv 2016  ·  [[PDF](https://arxiv.org/pdf/1611.06440)] 
+
+**非结构化剪枝，通过去除不重要的权重来减少神经网络的存储需求，并与量化和编码技术结合**
+**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**<br>
+* Song Han, Huizi Mao, William J. Dally *<br>
+arXiv 2016  ·  [[PDF](https://arxiv.org/pdf/1510.00149)]
+
+**移除绝对值较小的权重实现模型压缩**
+**Learning both Weights and Connections for Efficient Neural Networks**<br>
+* Song Han, Jeff Pool, John Tran, William J. Dally *<br>
+NIPS 2015  ·  [[PDF](https://arxiv.org/pdf/1506.02626)]
+
+**通过梯度评估每个权重对损失的影响，保留敏感性高的权重**
+**SNIP: Single-shot Network Pruning based on Connection Sensitivity**<br>
+* Namhoon Lee, Thalaiyasingam Ajanthan, Philip H. S. Torr *<br>
+arXiv 2019  ·  [[PDF](https://arxiv.org/pdf/1810.02340)]
+
+**提出了动态稀疏训练框架，在训练过程中动态调整非结构化剪枝的稀疏性**
+**Dynamic Sparse Training: Find Efficient Sparse Network From Scratch With Trainable Masked Layers**<br>
+* Junjie Liu, Zhe Xu, Runbin Shi, Ray C. C. Cheung, Hayden K.H. So *<br>
+arXiv 2019  ·  [[PDF](https://arxiv.org/pdf/2005.06870)]
+
+**Can Unstructured Pruning Reduce the Depth in Deep Neural Networks?**<br>
+* Zhu Liao, Victor Quétu, Van-Tam Nguyen, Enzo Tartaglione *<br>
+arXiv 2023  ·  [[PDF](https://arxiv.org/pdf/2308.06619)]
+
+**Towards Energy Efficient Spiking Neural Networks: An Unstructured Pruning Framework**<br>
+* Xinyu Shi, Jianhao Ding, Zecheng Hao, Zhaofei Yu * <br>
+ICLR 2024  ·  [[PDF](https://openreview.net/pdf?id=eoSeaK4QJo)] 
+
+**What Makes a Good Prune? Maximal Unstructured Pruning for Maximal Cosine Similarity**<br>
+* Gabryel Mason-Williams, Fredrik Dahlqvist *<br>
+ICLR 2024  ·  [[PDF](https://openreview.net/pdf?id=jsvvPVVzwf)] 
+
+**Dynamic Unstructured Pruning Neural Network Image Super-resolution Reconstruction**<br>
+* Shaowei Zhang, Rongwang Yin, Mengzi Zhang *<br>
+ICLR 2024  ·  [[PDF](https://doi.org/10.31449/inf.v48i7.5332)] 
+
+**Unstructured Pruning and Low Rank Factorisation of Self-Supervised Pre-Trained Speech Models**<br>
+* Haoyu Wang; Wei-Qiang Zhang *<br>
+IEEE 2024  ·  [[PDF]()] 
+
+ 
 #### 结构化剪枝
+
 #### 动态剪枝
+
 ### 知识蒸馏
 
 
